@@ -4,3 +4,4 @@ flask
 newspaper3k
 python-dotenv
 gunicorn
+lxml_html_clean
