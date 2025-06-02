@@ -1,0 +1,6 @@
+newspaper3k
+Requests
+flask
+newspaper3k
+python-dotenv
+gunicorn
