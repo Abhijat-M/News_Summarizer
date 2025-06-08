@@ -22,15 +22,14 @@ st.markdown("**Generate summaries using advanced abstractive summarization with 
 
 # Sidebar content
 st.sidebar.subheader("About the app")
-st.sidebar.info("Now using 🤗HuggingFace's [distilbart-cnn-12-6](https://huggingface.co/sshleifer/distilbart-cnn-12-6)  model for faster inference.\
-                \nSource code available [here](https://github.com/ivnlee/streamlit-text-summarizer)")   
+st.sidebar.info("Now using 🤗HuggingFace's [distilbart-cnn-12-6](https://huggingface.co/sshleifer/distilbart-cnn-12-6)  model for faster inference.")   
 st.sidebar.write("\n\n")
 st.sidebar.markdown("**API Key Setup:**")
 st.sidebar.markdown("* Store your key securely in a `.env` file")
 st.sidebar.markdown("* Get a free key from [HuggingFace](https://huggingface.co/join)") 
 st.sidebar.divider()
 st.sidebar.write("Supports English articles not behind paywalls.")
-st.sidebar.caption("Created by [Ivan Lee](https://ivan-lee.medium.com/)  using [Streamlit](https://streamlit.io/)🎈.")   
+st.sidebar.caption("Created by Abhijat")   
 
 # Inputs 
 st.subheader("Enter article URL")
